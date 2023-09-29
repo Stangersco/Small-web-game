@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Game</title>
+</head>
+<body>
+    <h1>Main</h1>
+
+    <div id="difficult">Difficult:
+        <select name="mySelect" id="selectDifficult">
+            <option value="eazy">eazy</option>
+            <option value="medium">medium</option>
+            <option value="hard">hard</option>
+        </select>
+    </div>
+
+
+    <input type="checkbox" name="subscribe" value="yes"> infinity?<br>
+
+    <button id="submitButton">Submit</button>
+
+    <script src="{{ url_for('static', filename='index.js')}}"></script>
+</body>
+</html>
